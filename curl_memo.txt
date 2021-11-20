@@ -1,0 +1,13 @@
+POSTメソッドで通信したいときのオプション
+curl -X POST "http://....."
+
+POSTでパラメータをセットしたいとき
+curl -X POST -d "username=admin&password=71urlkufpsdnlkadsf" "http://..."
+(data=abcd&data2=12345)
+
+POSTでBasic認証したいとき
+curl -i -u username:password "http://..."
+(admin:asdfgh)
+
+POSTでUser-Agentとリファラを指定する例
+curl -H "User-Agent: Sup3rS3cr3tAg3nt" -e "awesomesauce.com" "http://"
