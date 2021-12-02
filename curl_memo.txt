@@ -11,3 +11,6 @@ curl -i -u username:password "http://..."
 
 POSTでUser-Agentとリファラを指定する例
 curl -H "User-Agent: Sup3rS3cr3tAg3nt" -e "awesomesauce.com" "http://"
+
+リダイレクトを許可したいとき
+curl -L "http://..."
